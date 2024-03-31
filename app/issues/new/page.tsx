@@ -8,7 +8,7 @@ const NewIssuePage = () => {
         <div className='max-w-xl space-y-4'>
 
             <TextField.Root placeholder="Title">
-                <TextField.Slot/>
+                <TextField.Slot />
             </TextField.Root>
             <TextArea placeholder="Description" />
             <Button size='3' className='cursor-pointer'>Submit New Issue</Button>
